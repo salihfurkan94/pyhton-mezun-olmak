@@ -1,0 +1,23 @@
+h1{
+    color: rgb(73, 73, 78);
+   
+}
+
+p{
+    color: rgb(23, 161, 23);
+  
+}
+
+h2{
+    font-size: 50px;
+}
+
+img{
+   
+    height: 400px;
+    border-radius: 50px;
+}
+body{
+   background-color: rgb(106, 109, 165);
+}
+

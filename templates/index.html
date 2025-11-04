@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Salihin Sitesi</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<h1>İklim Değişikliği Haberleri</h1>
+
+{% for n in articles %}
+<div class="haber">
+    <h2>{{ n.title }}</h2>
+    <img src="{{ n.image }}" width="300">
+    <p>{{ n.description }}</p>
+    <a href="{{ n.url }}" target="_blank">Haberi Oku</a>
+</div>
+{% endfor %}
+
+</body>
+
+</html>    
